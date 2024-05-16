@@ -1,0 +1,45 @@
+<!-- Describe task in general -->
+<img src="{{MEDIA_CONVERT}}title.png" class="title_img" />
+<p style="text-align: justify;">
+    Colorful Disks ist ein Spiel, das auf einer Basis mit einem vertikalen Stab und einigen Papierscheiben mit einem Loch in der Mitte gespielt wird. Die Scheiben haben alle unterschiedliche Radien und Farben. Wenn alle Scheiben übereinander gestapelt sind, zählt die Anzahl der Farben, die von oben zu sehen sind. Scheiben, die von oben nicht zu sehen sind, werden also nicht gewertet.
+</p>
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}colorful-disks.svg" alt="example" style="max-height: 200px"/>
+</p>
+<p style="text-align: justify;">
+    Berechnen Sie anhand der Radien der Scheiben in der Reihenfolge, in der sie auf den Stab gelegt werden (von unten nach oben), die Punktzahl, wenn alle Scheiben gestapelt sind.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Eingabe:</strong> Tupel von ganzen Zahlen <span>({% if is_js %}number{% else %}int{% endif %})</span>.
+</p>
+
+<p>
+   <strong>Ausgabe:</strong> Ganzzahl <span>({% if is_js %}number{% else %}int{% endif %})</span>. 
+</p>
+
+
+<p>
+    <strong>Beispiele:</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<!-- <p>
+    <strong>Preconditions:</strong>
+    <ul>
+    <li><i>both given ints should be between -1000 and 1000</i></li>
+    </ul>
+</p> -->
+<p><i>Diese Mission wurde von <a target="_blank" href="https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0431">AIZU ONLINE JUDGE</a></i></p>
